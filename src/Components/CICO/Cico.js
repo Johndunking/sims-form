@@ -9,7 +9,7 @@ const Cico = () => {
     <h5 class="card-title">Check In Check Out</h5>
     <p class="card-text">Here is an example of Check In Check out for guidance in your own use.</p>
     <div className="d-flex justify-content-center">
-  <a href="https://templatelab.com/wp-content/uploads/2021/07/behavior-contract-template-16.jpg" className="btn btn-primary">
+  <a href="https://docs.google.com/document/d/12ai70il0f23Er3DWSM4JKbdVRMQkEDsql8Z5vAF6IBw/edit?usp=sharing" className="btn btn-primary">
     CICO
   </a>
 </div>
