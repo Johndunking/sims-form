@@ -124,7 +124,6 @@ const FormComponent = () => {
                       className="form-control"
                     >
                       <option value={0}></option>
-                      <option value={0}>Very Untrue/ I don't know</option>
                       <option value={1}>Untrue</option>
                       <option value={2}>True</option>
                       <option value={3}>Very true</option>
