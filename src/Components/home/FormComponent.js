@@ -53,13 +53,13 @@ const FormComponent = () => {
 
 
    const questions = [
-    ['Student seeks and likes attention from adults.', 'Student could benefit from having a positive adult role model outside of the home.', 'Student could benefit from starting the day off on a good note and ending the day with praise or feedback.'],
-    ['Student is eager to earn rewards or access to privileges.', 'With the right incentive, the students behavior likely will improve.', 'Student can behave well when s/he wants to or the appropriate incentive is available (e.g., recess, computer time, field trip, etc.)'],
-    ['Student seems to exhibit disruptive classroom behavior to get out of doing academic work', 'Student is able to only work for small periods of time before engaging in off-task behaviors', 'QStudent academic skills are low and, as a result, frequently takes his/her own breaks during instruction or learning'],
-    ['Student is rejected or isolated by peers', 'Student withdrawals from social situations and spends most of free time alone', 'Student could benefit from having other students say nice things about him/her'],
-    ['Student has difficulty managing emotions in response to situations that arise in school', 'Student tires some times but lacks social and/or emotional skills to be successful', 'Student tries to do better socially and emotionally but appears to lack social or emotional skills to do so (i.e., can’t do problem)'],
-    ['Student is unaffected by warnings or typical school disciplinary practices(loss of privilege, reprimand, removal from class, etc.)', 'School has a good relationship with the student’s parents', 'Student’s parents are open and willing to collaborate with the school'],
-    ['Student’s problem behavior happens numerous times throughout the day and requires constant redirections', 'Student has difficulty concentrating and staying focused until completing a task', 'Student needs constant reminders to stay on-task'],
+    ['School has a good relationship with the student’s parents', 'Student seeks and responds well to adult', 'Student is rejected or isolated by peers.'],
+    ['Student is eager to earn rewards or access to privileges.', 'Student seems to exhibit disruptive classroom behavior to get out of doing academic work', 'Student’s parents are open and willing to collaborate with the school'],
+    ['Student tries to do better socially and emotionally but appears to lack social or emotional skills to do so (i.e., can’t do problem)', 'Student is able to only work for small periods of time before engaging in off-task behaviors', 'Student could benefit from having a positive, adult mentor outside of the home, frequently takes his/her own breaks during instruction or learning'],
+    ['Student needs constant reminders to stay on-task', 'Student withdrawals from social situations and spends most of free time alone', 'Student’s problem behavior happens numerous times throughout the day and requires constant redirections'],
+    ['Student is unaffected by warnings or typical school disciplinary practices (loss of privilege, reprimand, removal from class, etc.)', 'Student tries some times but lacks social and/or emotional skills to be successful', 'Student academic skills are low and, as a result, frequently takes his/her own breaks during instruction or learning'],
+    ['When the right incentive is in place, the student’s behavior improves', 'Student could benefit from starting the day off with a positive interaction and ending the day with praise or feedback', 'Student has difficulty concentrating and staying focused until completing a task'],
+    ['Student has difficulty managing emotions in response to situations that arise in school', 'Student could benefit from having other students say nice things about him/her', 'Student can behave well when s/he wants to or the appropriate incentive is available (e.g., recess, computer time, field trip, etc.)('],
   ];
 
 
@@ -67,13 +67,13 @@ const FormComponent = () => {
     e.preventDefault();
 
     // Calculate the sum of each group of 3 values
-    const sumGroup1 = formData.value1 + formData.value2 + formData.value3;
-    const sumGroup2 = formData.value4 + formData.value5 + formData.value6;
-    const sumGroup3 = formData.value7 + formData.value8 + formData.value9;
-    const sumGroup4 = formData.value10 + formData.value11 + formData.value12;
-    const sumGroup5 = formData.value13 + formData.value14 + formData.value15;
-    const sumGroup6 = formData.value16 + formData.value17 + formData.value18;
-    const sumGroup7 = formData.value19 + formData.value20 + formData.value21;
+    const sumGroup1 = formData.value2 + formData.value9 + formData.value17;
+    const sumGroup2 = formData.value4 + formData.value16 + formData.value21;
+    const sumGroup3 = formData.value5 + formData.value8 + formData.value15;
+    const sumGroup4 = formData.value3 + formData.value11 + formData.value20;
+    const sumGroup5 = formData.value7 + formData.value14 + formData.value19;
+    const sumGroup6 = formData.value1 + formData.value6 + formData.value13;
+    const sumGroup7 = formData.value10 + formData.value12 + formData.value18;
     // ... Repeat for the rest of the groups
 
     // Add logic to set state variables based on the sum of each group
